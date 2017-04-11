@@ -7,18 +7,20 @@
   <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body> 
-  <header class="container">
-  <div class="sidebyside">
-    <img class="logo" src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myt-logo.jpg">
-    <h4>My Times</h4>
-  </div>
-  <nav>
-    <span><a href="#">World</a></span>
-    <span><a href="#">U.S.</a></span>
-    <span><a href="#">Tech</a></span>
-    <span><a href="#">Science</a></span>
-  </nav>
+  <header>
+    <div class="sidebyside">
+      <img class="logo" src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myt-logo.jpg">
+      <h4>My Times</h4>
+    </div>
+    <nav>
+      <span><a href="#">World</a></span>
+      <span><a href="#">U.S.</a></span>
+      <span><a href="#">Tech</a></span>
+      <span><a href="#">Science</a></span>
+    </nav>
   </header>
+
+
 
   <div class="columncontain">
     <div class="column">
@@ -30,7 +32,7 @@
           <p>MONUMENT VALLEY, AZ - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec nisl at augue dapibus dignissim. Nunc condimentum rutrum metus, ac eleifend lacus viverra nec. Proin ultrices egestas diam sed mollis. Nulla sapien massa, dictum vitae est et, pellentesque rutrum risus. Nunc volutpat, metus ac rutrum tempus, orci nisi porttitor dolor, sit amet luctus metus est ut mauris. Quisque vulputate nisl vitae massa rhoncus, at sagittis elit accumsan. Etiam tempus, lorem quis blandit imperdiet, enim dui lobortis tortor, sit amet lobortis arcu ex id odio. Nam fermentum nulla et eros bibendum, sed ullamcorper massa scelerisque. Vestibulum aliquet placerat leo a hendrerit. Nulla non sagittis neque. Nullam sit amet fringilla massa.</p>
         </div> 
 
-
+        <!-- Bottom of large column containing two smaller columns -->
         <div class="row">
           <div class="column">
             <div>  
@@ -51,13 +53,12 @@
             </div>
           </div>    
         </div>  
-
       </div>  
     </div>
     
 
     
-
+    <!-- Second (middle) column -->
     <div class="column">
       <div class="column-medium">
         <div>
@@ -73,7 +74,7 @@
       </div>  
     </div>  
 
-
+    <!-- Third column with News Bites section -->
     <div class="column">
       <div class="column-small">
         <div>
@@ -92,9 +93,27 @@
         </div>  
       </div>  
     </div>
+  </div> 
 
 
-  </div>  
+  <!-- Footer -->
+  <footer>
+    <div class="wide-margin">
+      <div class="inline-flex">
+        <p id="my-times-footer">My Times</p>
+        <p id="my-times-footer">|</p>
+        <nav>
+          <span><a href="#">World</a></span>
+          <span><a href="#">U.S.</a></span>
+          <span><a href="#">Tech</a></span>
+          <span><a href="#">Science</a></span>
+        </nav>
+      </div>
+      <div id="text-center">  
+        <p id="footer-p">&#9400; 2016, My Times (A Division of Codecademy bite)</p>
+      </div>  
+    </div>  
+  </footer>
 
 </body>
 </html>

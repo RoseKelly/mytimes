@@ -1,14 +1,48 @@
+/*body {
+  border: 0.2em solid red;
+}*/
+
 header {
+  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   padding-bottom: 0.8em;
   border-bottom: 0.1em solid black;
+  background-color: white;
+
+/*  border: 0.3em solid orange;*/
+
+}
+
+.columncontain {
+  display: flex;
+  margin-top: 2em;
+/*  border: 0.2em solid green;*/
+}
+
+/*.container {
+  position: fixed;
+  display: flex;
+  border: 0.2em solid orange;
+  margin: 0;
+  justify-content: space-between;
+}*/
+
+.logo {
+/*  display: flex;*/
+  width: 70px;
+}
+
+.sidebyside {
+  /*display: inline-flex;*/
+  display: flex;
 }
 
 h4 {
   color: MediumAquamarine;
   padding-left: 0.7em;
+  padding-top: 0.2em;
 }
 
 nav {
@@ -17,7 +51,7 @@ nav {
 }
 
 nav span {
-  padding: 1em;
+  padding: 0 2em 0 2em;
 }
 
 nav a {
@@ -41,23 +75,22 @@ h5 {
   text-align: center;
 }
 
-.container {
+footer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  margin-top: 5em;
 }
 
-.logo {
+footer p {
   display: flex;
-  width: 70px;
-}
-
-.sidebyside {
-  display: inline-flex;
-}
-
-.columncontain {
-  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+/*  border: 0.05em solid black;*/
 }
 
 .column {
@@ -116,22 +149,27 @@ h5 {
 }
 
 .image-header-main {
+  display: flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
   margin-top: 0;
+  padding-left: 0.7em;
+  align-items: center;
   /*justify-content: flex-start;
   align-items: flex-start;*/
 }
 
 .image-header-body {
+  display: flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   margin: 0 auto;
   text-align: center;
+  align-items: center;
 }
 
 .news-bites {
@@ -146,7 +184,33 @@ h5 {
   padding: 0.1em 1em 1em 1em;
 }
 
+.wide-margin {
+  margin: 5em;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
 #top-padding {
   padding-top: 1em;
+}
+
+#my-times-footer {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 0 1.3em 0 1.3em;
+}
+
+#text-center {
+  display: flex;
+  justify-content: center;
+}
+
+#footer-p {
+  font-family: Verdana;
+  font-size: 13px;
 }
 
